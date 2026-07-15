@@ -144,12 +144,12 @@ export default async function HomePage() {
       <footer className="py-12" style={{ borderTop: '1px solid var(--border)' }}>
         <div className="max-w-6xl mx-auto px-6 flex flex-wrap items-center justify-between gap-4">
           <div className="text-xl font-black gradient-text">AF.</div>
-          <p className="text-sm" style={{ color: 'var(--text-muted)' }}>© 2024 Amir Faisal Karimullah. Dibuat dengan ❤️</p>
+          <p className="text-sm" style={{ color: 'var(--text-muted)' }}>© 2026 Amir Faisal Karimullah. Dibuat dengan ❤️</p>
           <div className="flex gap-3">
             {[
-              { href: 'https://github.com/amirfaisal', icon: '🐙', label: 'GitHub' },
-              { href: 'https://linkedin.com/in/amirfaisal', icon: '💼', label: 'LinkedIn' },
-              { href: 'mailto:amirfaisal@email.com', icon: '📧', label: 'Email' },
+              { href: 'https://github.com/fsl-karimullah/', icon: '🐙', label: 'GitHub' },
+              { href: 'https://www.linkedin.com/in/amir-faisal-karimullah-493b8a1b5/', icon: '💼', label: 'LinkedIn' },
+              { href: 'mailto:faisalbic123@gmail.com', icon: '📧', label: 'Email' },
             ].map(l => (
               <a key={l.label} href={l.href} target="_blank" rel="noopener noreferrer" title={l.label}
                 className="w-10 h-10 rounded-lg flex items-center justify-center text-lg transition-all hover:-translate-y-0.5"
