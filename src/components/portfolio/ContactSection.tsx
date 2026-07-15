@@ -2,9 +2,9 @@
 import { useState } from 'react'
 
 const CONTACTS = [
-  { icon: '📧', label: 'Email', value: 'amirfaisal@email.com', href: 'mailto:amirfaisal@email.com' },
-  { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/amirfaisal', href: 'https://linkedin.com/in/amirfaisal' },
-  { icon: '🐙', label: 'GitHub', value: 'github.com/amirfaisal', href: 'https://github.com/amirfaisal' },
+  { icon: '📧', label: 'Email', value: 'faisalbic123@gmail.com', href: 'mailto:faisalbic123@gmail.com' },
+  { icon: '💼', label: 'LinkedIn', value: 'https://www.linkedin.com/in/amir-faisal-karimullah-493b8a1b5/', href: 'https://www.linkedin.com/in/amir-faisal-karimullah-493b8a1b5/' },
+  { icon: '🐙', label: 'GitHub', value: 'github.com/fsl-karimullah', href: 'https://github.com/fsl-karimullah' },
   { icon: '📍', label: 'Lokasi', value: 'Jakarta, Indonesia', href: null },
 ]
 
